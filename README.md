@@ -45,7 +45,24 @@ Esto mejora la experiencia del usuario y refuerza la identidad visual de la marc
 * **RNF1:** Adaptabilidad	El sitio se adapta correctamente a celular, tablet y computadora.
 * **RNF2:** Rendimiento	Las páginas cargan de forma rápida y fluida.
 * **RNF3:** Usabilidad	La navegación es clara, sencilla e intuitiva.
-* **RF4:**  El sitio guarda temporalmente la información necesaria para una navegación continua.
+* **RNF4:**  El sitio guarda temporalmente la información necesaria para una navegación continua.
+  
+##  Tecnologías y Herramientas del Ecosistema
+  * Manejo de Estado Global: useState (React) 
+    Se utiliza para manejar información básica como la selección de accesorios y el contenido del carrito dentro del sitio.
+
+  * Consumo de Datos: Datos locales (archivo JSON):
+    Los accesorios se cargan desde un archivo local para facilitar el desarrollo del proyecto.
+
+  * Estilizado: CSS
+    Se utiliza CSS para lograr un diseño minimalista y adaptable a diferentes dispositivos.
+
+  * Despliegue: Vercel
+    Se utiliza Vercel para publicar el sitio web y permitir su acceso desde cualquier navegador.
+
+## Diagrama de Flujo de Datos (Boceto)
+<img width="1240" height="4525" alt="Compra de Accesorios Flow-2026-01-20-021959" src="https://github.com/user-attachments/assets/cf66ff1e-fd05-4963-93c7-7d523e991fcc" />
+
 
   
   
